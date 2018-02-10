@@ -12,8 +12,8 @@ Therefore I decided to write a very concise tutorial on how to do small software
 There are few things that induces so much frustration as when the team aspect of coding goes awry. Luckily most of the problems mentioned above can be avoided if the people writing the code follows a few software development practices. There are many different software development practices, and it is still heavily debated which ones are the best in which situations. In this tutorial I have chosen to follow a few of the practices from [Extreme Programming](https://www.agilealliance.org/glossary/xp/#q=~(filters~(postType~(~'post~'aa_book~'aa_event_session~'aa_experience_report~'aa_glossary~'aa_research_paper~'aa_video)~tags~(~'xp))~searchTerm~'~sort~false~sortDirection~'asc~page~1)). 
 
 The topics discussed in this tutorial will be the following:
-* Stories - How to break down something complex into manegable units
-* Test Driven Development - Increasing the likelihood that the code works
-* Git Workflow - How to not ruin others' code while working in parallell
-* Code simply first and Refactoring - How to evolve the code and not get overburdened by features
-* Continous Integration - How to make merge conflicts and diverging branches bareable
+* Stories - How to break down something complex into manegable units.
+* Test Driven Development - Increasing the likelihood that the code works.
+* Git Workflow - How to not ruin others' code while working in parallell.
+* Code simply first and Refactoring - How to evolve the code and not get overburdened by features.
+* Continous Integration - How to make merge conflicts and diverging branches bareable.
