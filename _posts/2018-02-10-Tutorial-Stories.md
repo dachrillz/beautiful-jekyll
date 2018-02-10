@@ -38,11 +38,13 @@ Stories can also be about things not directly related to the user. This can look
 | Feature: The program should have a sin(x) function		 |
 | Depends on: -							 |
 | Example: The function should work like the mathematical sin(x) |
-| Test cases: sin(0)=0, sin(2pi)=0, ...				 |
+| Test Cases: sin(0)=0, sin(2pi)=0, ...				 |
 | Priority: low							 |
 
 The nice thing about stories is that we can pile them up. If you realise that you want a feature, you simply write a story for it. We don't have to implemented all of the features and if we realise that we don't want a certain story we simply remove it. In later posts it will be elaborated how one can write good quality code in conjunction with using stories. (It is related to writing tests and refactoring)
 
 *In conclusion:* 
-Most likely we don't understand the domain of a project fully when we work on it. This means that we can't make a full design of the product that we develop in a given instance. Therefore we work with what we know now. We write stories which are informal descriptions of a feature that we want the product to have. We don't fret over implementation details! A story is also rarely stupid. If we realise that we don't want it later, we simply throw it away. Since it was just an informal description anyways, we didn't waste too much time on it. Lastly, it is always better to have too many stories than too few. This can't be stressed enough, *if we don't like a feature later we simply throw the story away*. In later posts I will elaborate how we can keep high code quality while still working in an agile fashion.
+Most likely we don't understand the domain of a project fully when we work on it. This means that we can't make a full design of the product that we develop in a given instance. Therefore we work with what we know now. We write stories which are informal descriptions of a feature that we want the product to have. We don't fret over implementation details! A story is also rarely stupid. If we realise that we don't want it later, we simply throw it away. Since it was just an informal description anyways, we didn't waste too much time on it. 
+
+Lastly, it is always better to have too many stories than too few. This can't be stressed enough, *if we don't like a feature later we simply throw the story away*. In later posts I will elaborate how we can keep high code quality while still working in an agile fashion.
 
