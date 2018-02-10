@@ -13,7 +13,7 @@ One way to handle a project is to follow the [waterfall](https://www.tutorialspo
 
 Since the whole point of working on side projects with friends is to explore new domains and technology the waterfall approach will work poorly. More often than not we will be in a state where we don't understand the problem we try to solve, or even how we want the final product to look. One solution to this problem is to work [Agile](https://en.wikipedia.org/wiki/Agile_software_development).
 
-Instead of trying to make sense of all of the project at once. We simply work with what we know now. One way to translate the features and ideas that we have in our head to something we can use to design the product is to simply use [stories](http://www.agilemodeling.com/artifacts/userStory.htm)
+Instead of trying to make sense of all of the project at once, we simply work with what we know now. One way to translate the ideas that we have in our head into something we can use is to use [stories](http://www.agilemodeling.com/artifacts/userStory.htm)
 
 A story is simply an informal description of a feature that you want the program to have. Instead of making a complete, and complex specification of the whole project we can break down the features we want into these much simpler units.
 
@@ -28,8 +28,8 @@ A story can look like following:
 |	1: Add GUI						 |
 |	2: Add load functionality to program			 |
 | Priority: Medium						 |
-
-As one can see, a story does not have to be complicated, neither should it be. It is often tempting to try to start with implementation details. To start with elaborate design patterns, libraries and state of the art apis. That comes later. We can spend weeks learning a particular library just to learn that we don't really need it. Stories is an excellent first step in making sense of what we want the product to look like.
+ 
+As one can see, a story does not have to be complicated, neither should it be. It is often tempting to try to start with the implementation details. To start with elaborate design patterns, libraries and state of the art apis. That comes later. We can spend weeks learning a particular library just to realize that we don't really need it. Stories are an excellent first step in making sense of what we want the product to look like.
 
 Stories can also be about things not directly related to the user. This can look like following:
 
