@@ -12,16 +12,10 @@ This never happened in my mathematical education, which is a pity. I only took c
 With that said, which place is better to start with than the natural numbers? In many ways the natural number are the most fundamental building block in mathematics. If you have the natural numbers with their arithmetic operations, you can construct a lot of mathematics. Therefore it is really cool to see that we can actually construct the natural numbers with even more basic building blocks.
 
 #The Peano Axioms
-The most common way to construct the natural numbers is using the [Peano Axioms](http://mathworld.wolfram.com/PeanosAxioms.html) They can be stated as following:
 
-$$
-\begin{enumerate}
-\item The first item
-\begin{enumerate}
-\item Nested item 1
-\item Nested item 2
-\end{enumerate}
-\item The second item
-\item The third etc \ldots
-\end{enumerate}
-$$
+The most common way to construct the natural numbers is using the [Peano Axioms](http://mathworld.wolfram.com/PeanosAxioms.html) They can be stated as following:
+1. Zero is a number.
+2. if $a$ is a number, the successor of $a$ is a number.
+3. zero is no the successor of *any* number.
+4. Two numbers where the successor are equal, are also equal.
+5. If a set $S$ of numbers contain zero and every successor of every number in $S$, then every number is in $S$ (Induction Axiom)
