@@ -13,6 +13,7 @@ With that said, which place is better to start with than the natural numbers? In
 
 #The Peano Axioms
 The most common way to construct the natural numbers is using the [Peano Axioms](http://mathworld.wolfram.com/PeanosAxioms.html) They can be stated as following:
+
 $$
 \begin{enumerate}
 \item The first item
