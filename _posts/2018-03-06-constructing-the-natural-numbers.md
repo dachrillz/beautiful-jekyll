@@ -14,8 +14,11 @@ With that said, which place is better to start with than the natural numbers? In
 #The Peano Axioms
 
 The most common way to construct the natural numbers is using the [Peano Axioms](http://mathworld.wolfram.com/PeanosAxioms.html) They can be stated as following:
-1. Zero is a number.
+1. zero is a number.
 2. if $a$ is a number, the successor of $a$ is a number.
 3. zero is no the successor of *any* number.
 4. Two numbers where the successor are equal, are also equal.
 5. If a set $S$ of numbers contain zero and every successor of every number in $S$, then every number is in $S$ (Induction Axiom)
+
+Several things have to be explained here. First of which assumptions do we take when we use these axioms? Firstly we need the notion of sets. In particular we need the following set constructions:
+1. Set Equality: if the sets $A$ and $B$ contain the same elements $\rightarrow$
