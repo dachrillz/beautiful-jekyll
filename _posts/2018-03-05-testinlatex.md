@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Test Driven Development
-subtitle: Increasing the likelihood that the code works.
+title: Testing Latex
+subtitle: woho.
 tags: [softwaretutorial]
 ---
 
 Here i am testing latex:
 
-$a = 5$
+$$a = 5$$
