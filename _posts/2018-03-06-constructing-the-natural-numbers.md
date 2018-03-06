@@ -20,6 +20,14 @@ The most common way to construct the natural numbers is using the [Peano Axioms]
 4. Two numbers where the successor are equal, are also equal.
 5. If a set $S$ of numbers contain zero and every successor of every number in $S$, then every number is in $S$ (Induction Axiom)
 
-Several things have to be explained here. First of which assumptions do we take when we use these axioms? Firstly we need the notion of sets. In particular we need the following set constructions:
+Several things have to be explained here. First of which assumptions do we take when we use these axioms? 
+
+Firstly we need the notion of sets. In particular we need the following set constructions along with the fundamental idea of sets:
 1. Set Equality: if the sets $A$ and $B$ contain the same elements $\rightarrow$ A = B
-2. Every set is a subset of itself, that is, $A \subset A$
+2. Every set is a subset of itself, that is, $A \subseteq A$
+
+We also need some notion of equality. The only thing we need are the following characteristics:
+1. Reflexivity: $x=x$
+2. Symmetry: if $x = y$ then $y = x$
+3. Transitivity: if $x = y$ and $y = z$ then $x = z$
+4. Equality has to be closed under the set. That is if $x\in S$ and $x=y$ then $y\in S$
