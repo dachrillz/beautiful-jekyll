@@ -52,16 +52,16 @@ This axiom states that $S(0) = 0$ is not allowed. This still does not bring orde
 This axiom finally brings the notion of orderness to the set. Because if $S(x) = S(y), then x=y$. This implies that $S(S(0)) = S(0)$ is not allowed, since $S(0) \neq 0$ from axiom $3$. This also holds inductively since: $S(S(S(0))) = S(S(0)) \rightarrow S(S(0)) = S(0) $, which was not allowed. 
 
 If we now combine the axioms we can construct an infinite chain of successors as following:
-1. $zero$ \in \mathbb{N}$ (axiom 1)
+1. $zero \in \mathbb{N}$ (axiom 1)
 2. $S(zero) \in \mathbb{N}$ (axiom 2)
 3. $S(zero) \noteq zero$ (axiom 3)
-4. S(S(zero)) \in mathbb{N}$ (axiom 2)
-5. S(S(zero)) \noteq zero$ (axiom 3)
-6. S(S(zero)) \noteq S(zero) (axiom 4)
+4. $S(S(zero)) \in mathbb{N}$ (axiom 2)
+5. $S(S(zero)) \noteq zero$ (axiom 3)
+6. $S(S(zero)) \noteq S(zero)$ (axiom 4)
 
 By using axiom 2,3 and 4 repetively we can construct an infinite chain that has very natural number-like characteristics. Simply by giving the different successors different names we have something that we can call the natural numbers! If you have not figured it out by yourself the names are:
-$zero = 0$
-$S(zero) = 1$
-$S(S(zero)) = 2$
-$S(S(S(zero))) = 3$
+$zero = 0 \\$
+$S(zero) = 1 \\$
+$S(S(zero)) = 2 \\$
+$S(S(S(zero))) = 3 \\$
 and so on... 
