@@ -21,4 +21,5 @@ The most common way to construct the natural numbers is using the [Peano Axioms]
 5. If a set $S$ of numbers contain zero and every successor of every number in $S$, then every number is in $S$ (Induction Axiom)
 
 Several things have to be explained here. First of which assumptions do we take when we use these axioms? Firstly we need the notion of sets. In particular we need the following set constructions:
-1. Set Equality: if the sets $A$ and $B$ contain the same elements $\rightarrow$
+1. Set Equality: if the sets $A$ and $B$ contain the same elements $\rightarrow$ A = B
+2. Every set is a subset of itself, that is, $A \subset A$
