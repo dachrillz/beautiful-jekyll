@@ -2,7 +2,7 @@
 layout: post
 title: Testing Latex
 subtitle: woho.
-tags: [softwaretutorial]
+tags: [foundational-mathematics]
 ---
 
 Here i am testing latex:
