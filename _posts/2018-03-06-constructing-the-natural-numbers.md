@@ -15,8 +15,8 @@ With that said, which place is better to start with than the natural numbers? In
 
 The most common way to construct the natural numbers is using the [Peano Axioms](http://mathworld.wolfram.com/PeanosAxioms.html) They can be stated as following:
 1. zero is a number.
-2. if $a$ is a number, the successor of $a$ is a number.
-3. zero is no the successor of *any* number.
+2. if $a$ is a number, the successor $S$ of $a$ is a number. $if x \in \mathbb{N}, then S(x) \in \mathbb{N}$
+3. zero is not the successor of *any* number.
 4. Two numbers where the successor are equal, are also equal.
 5. If a set $S$ of numbers contain zero and every successor of every number in $S$, then every number is in $S$ (Induction Axiom)
 
@@ -39,7 +39,11 @@ Armed with these basic tools we have basically everything we need to construct t
 #Explaining the axioms:
 Now I will step through the axioms one by one and explain how they actually bring about the natural numbers.
 
-#$Zero is a number$:
-This axiom simply states that there exists an element in the set $\mathbb{N}$ that is a number. It may seem circular to call this element zero, as zero is a very "natural numbers" concept. We would like to avoid the natural numbers when we construct natural numbers, as we don't want circular logic. However the name zero is simply what we call it. In one of the [videos](https://www.youtube.com/watch?v=3gBoP8jZ1Is&t=151s) that I refer to they called the zero element "zelda" in order to make the distinction clearer. We don't have anything that resembles the natural numbers yet, simply a set with an element that we happen to call zero.
+# 1. zero is a number:
+This axiom simply states that there exists an element in the set $\mathbb{N}$ that is a number. It may seem circular to call this element zero, as zero is a very "natural numbers" concept. We would like to avoid the natural numbers when we construct natural numbers, as we don't want circular logic. However the name zero is simply what we call it. In one of the [videos](https://www.youtube.com/watch?v=3gBoP8jZ1Is&t=151s) that watched to research this, they called the zero element "zelda" in order to make the distinction clearer. We don't have anything that resembles the natural numbers yet, simply a set with an element that we happen to call zero.
 
-#$a = 5$
+#if $a$ is a number, the successor of $a$ is a number.
+Here we introduce the concept of a *successor* The successor is simply a map that takes one element from the set we are constructing and outputs another element in the same set. The assumption we make through the axiom here is that if the input of the successor is a natural number, then the output is as well. This axiom provides closure under the $\mathbb{N}$ as we can never leave the natural numbers using this function. However it does not give us much more. It almost gives us some notion of orderness, which is essential for the natural numbers, but only almost. Given the two axioms we have now we can have that the successor of $0$ is $0$, $S(0) = 0$, which is not at all how we think about the natural numbers. This brings us to axiom 3...
+
+#zero is not the successor of *any* number.
+This axiom states that $S(0) = 0$ is not allowed. This still does not bring order to the set, as we can still have $S(S(x)) = S(x)$, which is akin to saying that the successor of $2$ is $1$. Which is not very natural number-like.
