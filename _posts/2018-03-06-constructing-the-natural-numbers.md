@@ -65,3 +65,14 @@ S(zero) = 1, \\
 S(S(zero)) = 2, \\
 S(S(S(zero))) = 3 \\ $
 and so on... 
+
+# If a set $S$ of numbers contain zero and every successor of every number in $S$, then every number is in $S$:
+
+We almost have a set that satisfies how we think of natural numbers. However one final axiom has to be added. We only said that there exists an element in $zero$ in $\mathbb{N}$ and then we have constructed the numbers from it using the successor map. However we have not said anything about elements that are not allowed in the set. What if there exists two elements in $\mathbb{N}$ called $a$ and $b$ that have the following properties $S(a) = S(b)$? This does not violate any of the previous four axioms as we can not reduce this succession application down to anything simpler in order to invoke axiom 4. This is weird as we have two different element whose successors are equal. This totally breaks the order of the set. 
+
+Therefore a final axiom is introduced: *If a set $S$ of numbers contain zero and every successor of every number in $S$, then every number is in $S$*. This axiom basically says is that if we have a set $S$ that satisfies the first four axioms, that is it contains our countably infinite chain of successors and the zero element, then this set is the set $\mathbb{N}$. If we add anything else to it then it is not something we call the natural numbers. An other way to state this axiom is to say that $\mathbb{N}$ is the smallest set that satisfies the Peano Axioms. This way we avoid the weirdness that happens when we introduce the elements $a$ and $b$, or any other non natural like elements we can think of.
+
+References:
+1. [Infinite series](https://www.youtube.com/watch?v=3gBoP8jZ1Is&t=151s)
+2. [Wikipedia](https://en.wikipedia.org/wiki/Peano_axioms)
+3. [Wolfram Alpha](http://mathworld.wolfram.com/PeanosAxioms.html) 
