@@ -31,3 +31,15 @@ We also need some notion of equality. The only thing we need are the following c
 2. Symmetry: if $x = y$ then $y = x$
 3. Transitivity: if $x = y$ and $y = z$ then $x = z$
 4. Equality has to be closed under the set. That is if $x\in S$ and $x=y$ then $y\in S$
+
+Lastly we need a simple notion of a map called S. That is some construction that takes an input $x$ and outputs something $y$.
+
+Armed with these basic tools we have basically everything we need to construct the natural numbers.
+
+#Explaining the axioms:
+Now I will step through the axioms one by one and explain how they actually bring about the natural numbers.
+
+#$Zero is a number$:
+This axiom simply states that there exists an element in the set $\mathbb{N}$ that is a number. It may seem circular to call this element zero, as zero is a very "natural numbers" concept. We would like to avoid the natural numbers when we construct natural numbers, as we don't want circular logic. However the name zero is simply what we call it. In one of the [videos](https://www.youtube.com/watch?v=3gBoP8jZ1Is&t=151s) that I refer to they called the zero element "zelda" in order to make the distinction clearer. We don't have anything that resembles the natural numbers yet, simply a set with an element that we happen to call zero.
+
+#$a = 5$
