@@ -60,8 +60,8 @@ If we now combine the axioms we can construct an infinite chain of successors as
 6. $S(S(zero)) \noteq S(zero)$ (axiom 4)
 
 By using axiom 2,3 and 4 repetively we can construct an infinite chain that has very natural number-like characteristics. Simply by giving the different successors different names we have something that we can call the natural numbers! If you have not figured it out by yourself the names are:
-$zero = 0 \\$
-$S(zero) = 1 \\$
-$S(S(zero)) = 2 \\$
-$S(S(S(zero))) = 3 \\$
+$zero = 0 \\ $
+S(zero) = 1 \\
+S(S(zero)) = 2 \\
+S(S(S(zero))) = 3 \\ $
 and so on... 
