@@ -30,15 +30,19 @@ Numerical analysis is all about taking shortcuts. This is probably the coolest s
 Initialize: $A^{(0)}$
 
 $for k = 1,2,\dots \\
+
 \ \ Q^{(k)}R^{(k)} = A^{(k-1)} \\
+
 \ \ A^{(k)} = R^{(k)}Q^{(k)} \\
+
 end$
 
 Some things need to be explained here. First of all what does the variables mean. $A^{(0)}$ is the matrix whose eigenvalues we want to find. Imediately after the for loop $Q$ and $R$ are introduced. This is the so called QR-decomposition of the matrix $A^{(k-1)}$. This decomposition will be described shortly, and why we use it. In the final line of the for loop the two matrices $R^{(k)}$ and $Q^{(k)}$ are multiplied together in the opposite order. The result is what we call $A^{(k-1)}$ for the next iteration.
 
 # The QR decomposition
 
-As previously stated the algorithm decomposes $A$ into the two matrices $Q$ and $R$. What is interesting about this composition is that the matrix $Q$ is and orthogonal matrix, that is $QQ^T = Q^TQ = I$ and $R$ is a upper diagonal matrix.
+As previously stated the algorithm decomposes $A$ into the two matrices $Q$ and $R$. What is interesting about this composition is that the matrix $Q$ is and orthogonal matrix, that is $QQ^T = Q^TQ = I$ and $R$ is a upper diagonal matrix. This is essential for work, because if we combine it with yet another theorem we get an incredible result.
+
 
 
 
