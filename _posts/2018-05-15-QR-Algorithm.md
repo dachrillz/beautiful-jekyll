@@ -25,7 +25,13 @@ One solution to this problem is to turn to numerical analysis.
 
 # QR algorithm
 
-Numerical analysis is all about taking shortcuts. This is probably the coolest short cut I have seen so far. Most numerical algorithms are very sophisticated and more or less hard to implement. This algorithm however is dead simple.
+Numerical analysis is all about taking shortcuts. This is probably the coolest short cut I have seen so far. Most numerical algorithms are very sophisticated and more or less hard to implement. This algorithm however is dead simple. It can be stated as following:
+
+$A^{(0)}$
+$for k = 1,2,\dots$
+$\ \ Q^{(k)}R^{(k)} = A^{(k-1)}$
+$\ \ A^{(k)} = R^{(k)}Q^{(k)}$
+$end$
 
 
 References:
