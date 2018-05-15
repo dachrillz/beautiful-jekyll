@@ -41,7 +41,14 @@ Some things need to be explained here. First of all what does the variables mean
 
 # The QR decomposition
 
-As previously stated the algorithm decomposes $A$ into the two matrices $Q$ and $R$. What is interesting about this composition is that the matrix $Q$ is and orthogonal matrix, that is $QQ^T = Q^TQ = I$ and $R$ is a upper diagonal matrix. This is essential for work, because if we combine it with yet another theorem we get an incredible result.
+As previously stated the algorithm decomposes $A$ into the two matrices $Q$ and $R$. What is interesting about this composition is that the matrix $Q$ is and orthogonal matrix, that is $QQ^T = Q^TQ = I$ and $R$ is an upper diagonal matrix. This is essential for work, because if we combine it with yet another theorem we get an incredible result.
+
+## definition: Similar matrices
+Two matrices $C$ and $D$ are called $\textit{similar}$ if the following holds:
+
+$C = P^{(-1)}DP$
+
+where $P$ is some invertible matrix.
 
 
 
