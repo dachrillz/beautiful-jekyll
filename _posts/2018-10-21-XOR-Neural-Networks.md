@@ -52,6 +52,14 @@ something interesting happens. As previously said, the weights and biases are un
 # Trying the same thing with one hidden node.
 To demonstrate why we really need two nodes I also tried to solve the XOR function with only one hidden node. It resulted in the following contour plot:
 ![Contour Plot](https://raw.githubusercontent.com/dachrillz/dachrillz.github.io/master/img/xor/zsingle.png)
+
 As one can see. No matter which weights or biases we choose, there is no way that this linear classifier can ever classify anything that is not linearly separable in a satisfactory way. 
 
 This thus somewhat demonstrates that certain problems require a certain depth of the neural networks. The more nodes we add to the hidden layer, the more complex decision boundary we should be able to construct.
+
+And in fact if one add yet another layer the complexity of the separators increase even more. A second hidden layer was added and this produced the following classifier. This does not really look like XOR any more, but it is at least interesting to see that the number of nodes directly corelates with the complexity of the separators.
+![Contour Plot](https://raw.githubusercontent.com/dachrillz/dachrillz.github.io/master/img/xor/three.png)
+
+# Some conclusions
+
+It's been a while since I last touched machine learning, so it was nice to get a refresher on the subject. Once I have more time on my hands I might delve deeper into the theory of neural networks. I remember that the blog post I mentioned earlier talked about how we might have to analyze how separable a set of data actually is, in order to assess how well a neural network can perform on it. That would be interesting to explore further.
