@@ -62,4 +62,4 @@ And in fact if one add yet another layer the complexity of the separators increa
 
 # Some conclusions
 
-It's been a while since I last touched machine learning, so it was nice to get a refresher on the subject. Once I have more time on my hands I might delve deeper into the theory of neural networks. I remember that the blog post I mentioned earlier talked about how we might have to analyze how separable a set of data actually is, in order to assess how well a neural network can perform on it. That would be interesting to explore further.
+It's been a while since I last touched machine learning, so it was nice to get a refresher on the subject. Once I have more time on my hands I might delve deeper into the theory of neural networks. I remember that the blog post I mentioned earlier talked about how we might have to analyze how separable a set of data actually is (That is there any transformation that can linearly separate the data?) in order to assess how well a neural network can perform on it. That would be interesting to explore further.
