@@ -31,20 +31,24 @@ Mathematically this neural network is defined as following:
 
 The weights and biases are uninteresting for this particular post and were simply set to values that solved the XOR problem.
 
-#How the network solves the problem
+# How the network solves the problem
 If one plots the results of the inner nodes one can see why we need at least two inner nodes to solve the problem.
-References:
 
 ![First Inner Node](https://raw.githubusercontent.com/dachrillz/dachrillz.github.io/master/img/xor/z1.png)
-
+This is a contour plot from of $z_1$ node.
 ![Second Inner Node](https://raw.githubusercontent.com/dachrillz/dachrillz.github.io/master/img/xor/z2.png)
+This is a contour plot of the $z_2$ node.
 
-
+These two nodes simply act as linear separators. That is they separate the domain into two planes using a line.
 ![Contour Plot](https://raw.githubusercontent.com/dachrillz/dachrillz.github.io/master/img/xor/Figure_1.png)
+However when we combine them in the 
+$y(z_1,z_2) = w_{1}^{(2)} * z_1 + w_{2}^{(2)} * z_2 + b^{(2)}$
+expression something interesting happens. As previously said, the weights and biases are uninteresting. They simply move the lines around somewhat. What is really interesting is that by adding the two linear classifiers $z_1$ and $z_2$ together we get a non linear classifier!
 
-
-
-
+#Trying the same thing with one hidden node.
+To demonstrate why we really need two nodes I also tried to solve the XOR function with only one hidden node. It resulted in the following contour plot:
+![Contour Plot](https://raw.githubusercontent.com/dachrillz/dachrillz.github.io/master/img/xor/zsingle.png)
+As one can see. No matter which weights or biases we choose, there is no way that this linear classifier can ever classify anything that is not linearly separable in a satisfactory way. 
 #References:
 1. [Infinite series](https://www.youtube.com/watch?v=3gBoP8jZ1Is&t=151s)
 2. [Wikipedia](https://en.wikipedia.org/wiki/Peano_axioms)
