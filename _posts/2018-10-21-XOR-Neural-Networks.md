@@ -32,6 +32,8 @@ Mathematically this neural network is defined as following:
 The weights and biases are uninteresting for this particular post and were simply set to values that solved the XOR problem.
 
 # How the network solves the problem
+A note: I realize now, after the I generated the pictures, that the scales are of. Therefore you are gonna have to imagine when $x$ is equal to $5$, it is really equal to $1$.
+
 If one plots the results of the inner nodes one can see why we need at least two inner nodes to solve the problem.
 
 This is a contour plot from of $z_1$ node.
