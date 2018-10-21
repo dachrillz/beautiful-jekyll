@@ -34,6 +34,18 @@ The weights and biases are uninteresting for this particular post and were simpl
 #How the network solves the problem
 If one plots the results of the inner nodes one can see why we need at least two inner nodes to solve the problem.
 References:
+
+![First Inner Node](https://raw.githubusercontent.com/dachrillz/dachrillz.github.io/master/img/xor/z1.png)
+
+![Second Inner Node](https://github.com/dachrillz/dachrillz.github.io/master/img/xor/z2.png)
+
+
+![Contour Plot](https://github.com/dachrillz/dachrillz.github.io/master/img/xor/Figure_1.png)
+
+
+
+
+#References:
 1. [Infinite series](https://www.youtube.com/watch?v=3gBoP8jZ1Is&t=151s)
 2. [Wikipedia](https://en.wikipedia.org/wiki/Peano_axioms)
 3. [Wolfram Alpha](http://mathworld.wolfram.com/PeanosAxioms.html) 
