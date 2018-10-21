@@ -44,9 +44,10 @@ These two nodes simply act as linear separators. That is they separate the domai
 To interpret these contour plots as discrete boolean functions, simply give them the inputs, and transform the value $-1$ to $0$, keep $1$ as $1$.
 
 ![Contour Plot](https://raw.githubusercontent.com/dachrillz/dachrillz.github.io/master/img/xor/Figure_1.png)
-However when we combine them in the 
-$y(z_1,z_2) = w_{1}^{(2)} * z_1 + w_{2}^{(2)} * z_2 + b^{(2)}$
-expression something interesting happens. As previously said, the weights and biases are uninteresting. They simply move the lines around somewhat. What is really interesting is that by adding the two linear classifiers $z_1$ and $z_2$ together we get a non linear classifier!
+
+However when we combine them as following: 
+$y(z_1,z_2) = g(w_{1}^{(2)} * z_1 + w_{2}^{(2)} * z_2 + b^{(2)})$
+something interesting happens. As previously said, the weights and biases are uninteresting. They simply move the lines around somewhat. What is really interesting is that by adding the two linear classifiers $z_1$ and $z_2$ together we get a non linear classifier!
 
 # Trying the same thing with one hidden node.
 To demonstrate why we really need two nodes I also tried to solve the XOR function with only one hidden node. It resulted in the following contour plot:
