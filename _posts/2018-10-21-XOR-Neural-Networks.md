@@ -37,10 +37,10 @@ References:
 
 ![First Inner Node](https://raw.githubusercontent.com/dachrillz/dachrillz.github.io/master/img/xor/z1.png)
 
-![Second Inner Node](https://github.com/dachrillz/dachrillz.github.io/master/img/xor/z2.png)
+![Second Inner Node](https://raw.githubusercontent.com/dachrillz/dachrillz.github.io/master/img/xor/z2.png)
 
 
-![Contour Plot](https://github.com/dachrillz/dachrillz.github.io/master/img/xor/Figure_1.png)
+![Contour Plot](https://raw.githubusercontent.com/dachrillz/dachrillz.github.io/master/img/xor/Figure_1.png)
 
 
 
