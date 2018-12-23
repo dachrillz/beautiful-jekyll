@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Proof of Work
-subtitle: A Crucial Features that Secures the Public Blockchain
+subtitle: A Crucial Feature that Secures the Public Blockchain
 tags: [Blockchain]
 ---
 Blockchain is one of the technologies I am most excited about at this moment. I'm part of the camp that believe that decentralised applications will have a big part to play in our near future. Without diving too deep into the philosophy and morality of what is possible with blockchains, this is my first attempt to really solidify what I know about blockchains on a technical level. I plan to write more and more about the technology and the economical aspects of blockchains in the coming future. Without further ado, here is my first blog post on how the basic hash cash protocol works in the early versions of bitcoin.
