@@ -4,7 +4,7 @@ title: Proof of Work 2
 subtitle: Some more notes on Proof Of Work
 tags: [Blockchain]
 ---
-In the last post I established proof of work, why we need it and how it works. However I lately learned while writing my own [blockchain](https://github.com/dachrillz/blockchain-implementation), that proof of work is implemented a little bit differently in Bitcoin compared to how I described it in the last post.
+In the last post I established proof of work, why we need it and how it works. However I lately learned while writing [my own blockchain](https://github.com/dachrillz/blockchain-implementation), that proof of work is implemented a little bit differently in Bitcoin compared to how I described it in the last post.
 
 The principle is still the same, but the code implementation is a little bit cleaner and it is is super easy to verify that a block is constructed honestly.
 ## Proof of Work in Python 
@@ -67,7 +67,5 @@ All parameters are determined by circumstance. For example the version is what i
 Also since a hash is a mathematical function, it returns a mathematical value. Therefore, strictly speaking, the solution to proof of work is not based on the number of leading zeros. It is based on if the value of the hash is smaller than the difficulty, which is also a number. 
 
 Therefore when one prints the hash of a block as a string it is easy to think that the solution is determined by the number of zeros. This is true in my implementation, but in the real implementation the solution is simply the string $c$ such that:
-
-$f(c|s) < difficulty$.
-
+$f(c|s) < difficulty$
 This allows the difficulty scaling to be more sensitive. In my implementation I can only jump orders of magnitude in the difficulty, as it is based on number of leading zeros. In the real implementation the difficulty can be fine tuned up to integer value precision.
