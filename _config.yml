@@ -14,7 +14,7 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Crule's Blog
+title: Chrille's Blog
 
 # Short description of your site
 description: Stuff!
@@ -24,6 +24,7 @@ description: Stuff!
 # List of links in the navigation bar
 navbar-links:
   About Me: "aboutme"
+  Books: "books"
   Bachelor's Thesis: "https://github.com/dachrillz/Bachelors-Thesis-Mathematics/blob/master/Neural_Networks_Project.pdf"
   Resources:
 #    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
