@@ -6,9 +6,9 @@ tags: [Blockchain]
 ---
 In the last post I established proof of work, why we need it and how it works. However I lately learned while writing my own [blockchain](https://github.com/dachrillz/blockchain-implementation), that proof of work is implemented a little bit differently in Bitcoin compared to how I described it in the last post.
 
-The principle is still the same, but the code implementation is a little bit cleaner and it is is super easy to verify that it is correctly done.
+The principle is still the same, but the code implementation is a little bit cleaner and it is is super easy to verify that a block is constructed honestly.
 ## Proof of Work in Python 
-This is an excerpt from how I implemented Proof of Work in the blockchain that I am working on currently. The code is kind of ugly at some places, but my blockchain is simply for learning how they work, so we'll live with it.
+This is an excerpt from how I implemented Proof of Work in the blockchain that I am working on currently. The code is kind of ugly at some places, but my blockchain is simply for learning how they work, so we'll live with it:
 ```python
 def hash_cash(block):
     guess = b'\0'
@@ -17,9 +17,9 @@ def hash_cash(block):
         guess = os.urandom(32)
 return guess
 ```
-The function hash cash is named after the [scheme](http://www.hashcash.org/) that inspired Proof of Work.
+The function hash cash is named after the [scheme](http://www.hashcash.org/) that inspired Proof of Work. This function finds the value that solves proof of work
 
-This function simply guesses until the function proof_of_work() returns true. It looks like this.
+It does this by simply guessing until the function proof_of_work() returns true. Which looks like this:
 ```python
 def proof_of_work_solved(block):
     solution = block.get_hash().encode()
@@ -35,7 +35,7 @@ This makes it easy to verify for other nodes if a block is valid. Simply hash it
 ## What does it mean to hash a block?
 The official Bitcoin has some way to encode a block. This is called serialization. Serialized objects are easy to send across networks, as they are just a string of data. The very same string can be run through a hash function.
 
-In my implementation I simply take the data that the block contains when it is instanciated as a Python class, and then I hash that. This looke like following:
+In my implementation I simply take the data that the block contains when it is instanciated as a Python class, and then I hash that. This looks like following:
 ```python
 class Block:
     def __init__(self, version, prev_hash, merkle_root, timestamp, difficulty_target, nonce, transactions):
@@ -61,7 +61,7 @@ class Block:
         return ret
 ```
 
-All parameters are determined by circumstance. For example ther version is what it is. The miner can't really decide how the hashes of the transactions will look, and so on. The only variable that a miner can change in a block freely is the nonce. Therefore the nonce is equivalent to the solution to the proof of work described in the previous post.
+All parameters are determined by circumstance. For example the version is what it is. The miner can't really decide how the hashes of the transactions will look, and so on. The only variable that a miner can change in a block freely is the nonce. Therefore the nonce is equivalent to the solution to the proof of work described in the previous post.
 
 ## A final correction 
 Also since a hash is a mathematical function, it returns a mathematical value. Therefore, strictly speaking, the solution to proof of work is not based on the number of leading zeros. It is based on if the value of the hash is smaller than the difficulty, which is also a number. 
